@@ -5,3 +5,4 @@ Community organisation for the Go OpenAPI code generator, [deepmap/oapi-codegen]
 ## Projects
 
 - [deepmap/oapi-codegen](https://github.com/deepmap/oapi-codegen)
+- [oapi-codegen/runtime](https://github.com/oapi-codegen/runtime)
