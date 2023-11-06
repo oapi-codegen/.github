@@ -1,0 +1,42 @@
+# Configuration for Release Drafter: https://github.com/toolmantim/release-drafter
+name-template: $NEXT_PATCH_VERSION
+tag-template: $NEXT_PATCH_VERSION
+
+# Emoji reference: https://gitmoji.carloscuesta.me/
+categories:
+  - title: ☢️ Breaking changes
+    labels:
+      - "☢️ breaking change"
+  - title: 🚀 New features and improvements
+    labels:
+      - enhancement
+  - title: 🐛 Bug fixes
+    labels:
+      - bug
+  - title: 📝 Documentation updates
+    labels:
+      - documentation
+  - title: 👻 Maintenance
+    labels:
+      - chore
+      - maintenance
+  - title: 🚦 Tests
+    labels:
+      - test
+  - title: ✍ Other changes
+  - title: 📦 Dependency updates
+    labels:
+      - dependencies
+    collapse-after: 5
+exclude-labels:
+  - skip-changelog
+  - invalid
+
+template: |
+  <!-- Optional: add a release summary here -->
+  $CHANGES
+
+autolabeler:
+  - label: 'documentation'
+    files:
+      - '*.md'
