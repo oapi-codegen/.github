@@ -28,6 +28,9 @@ categories:
     labels:
       - dependencies
     collapse-after: 5
+  - title: 🔐 Security
+    labels:
+      - "🔐 security"
 exclude-labels:
   - skip-changelog
   - invalid
