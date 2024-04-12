@@ -6,6 +6,7 @@ Community organisation for the Go OpenAPI code generator, [deepmap/oapi-codegen]
 
 - [deepmap/oapi-codegen](https://github.com/deepmap/oapi-codegen)
 - [oapi-codegen/runtime](https://github.com/oapi-codegen/runtime)
+- [oapi-codegen/nullable](https://github.com/oapi-codegen/nullable)
 - [oapi-codegen/testutil](https://github.com/oapi-codegen/testutil)
 - [oapi-codegen/nethttp-middleware](https://github.com/oapi-codegen/nethttp-middleware)
 - [oapi-codegen/fiber-middleware](https://github.com/oapi-codegen/fiber-middleware)
