@@ -1,6 +1,6 @@
 # oapi-codegen
 
-Community organisation for the Go OpenAPI code generator, [deepmap/oapi-codegen](https://github.com/deepmap/oapi-codegen) and its related projects.
+Community organisation for the Go OpenAPI code generator, [oapi-codegen/oapi-codegen](https://github.com/oapi-codegen/oapi-codegen) and its related projects.
 
 ## Projects
 
