@@ -39,8 +39,26 @@ exclude-labels:
   - invalid
 
 template: |
-  <!-- Optional: add a release summary here -->
   $CHANGES
+
+  ## Sponsors
+
+  We would like to thank our sponsors for their support during this release.
+
+  > [!CAUTION]
+  > Please make sure that all the current sponsors (from our README) are added here.
+
+  i.e.
+
+  <p align="center">
+    <a href="https://elastic.co?utm_source=oapi-codegen+repo&utm_medium=github+sponsorship">
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset=".github/sponsors/elastic-light.svg">
+        <source media="(prefers-color-scheme: dark)" srcset=".github/sponsors/elastic-dark.svg">
+        <img alt="Elastic logo" src=".github/sponsors/elastic-dark.svg" height="100px">
+      </picture>
+    </a>
+  </p>
 
 autolabeler:
   - label: 'documentation'
