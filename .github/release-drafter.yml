@@ -39,6 +39,9 @@ exclude-labels:
   - invalid
 
 template: |
+  > [!CAUTION]
+  > Please fill out the "Notable Changes" section with information about each of the features, for instance how https://github.com/oapi-codegen/oapi-codegen/releases/tag/v2.2.0 was done
+
   $CHANGES
 
   ## Sponsors
