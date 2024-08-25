@@ -7,6 +7,9 @@ categories:
   - title: ☢️ Breaking changes
     labels:
       - "☢️ breaking change"
+  - title: 🎉 Notable changes
+    labels:
+      - "notable changes"
   - title: 🚀 New features and improvements
     labels:
       - enhancement
