@@ -58,7 +58,6 @@ template: |
   <p align="center">
     <a href="https://elastic.co?utm_source=oapi-codegen+repo&utm_medium=github+sponsorship">
       <picture>
-      .github/sponsors/devzero-dark.svg
         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oapi-codegen/oapi-codegen/v2.4.0/.github/sponsors/elastic-light.svg">
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oapi-codegen/oapi-codegen/v2.4.0/.github/sponsors/elastic-dark.svg">
         <img alt="Elastic logo" src="https://raw.githubusercontent.com/oapi-codegen/oapi-codegen/v2.4.0/.github/sponsors/elastic-dark.svg" height="100px">
