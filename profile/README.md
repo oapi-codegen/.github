@@ -2,6 +2,8 @@
 
 Community organisation for the Go OpenAPI code generator, [oapi-codegen/oapi-codegen](https://github.com/oapi-codegen/oapi-codegen) and its related projects.
 
+The project is maintained in according to [its governance](https://github.com/oapi-codegen/governance/).
+
 ## Projects
 
 `oapi-codegen` is primarily operated out of two core projects:
