@@ -6,7 +6,7 @@ As a key component in the implementation of API clients and servers, [`oapi-code
 
 Only `oapi-codegen`'s latest minor version is generally supported.
 
-Related: [`oapi-codegen`'s support model (`SUPPORT.md`)](./SUPPORT.md)
+Related: [`oapi-codegen`'s support model (`SUPPORT.md`)](https://github.com/oapi-codegen/oapi-codegen/blob/HEAD/SUPPORT.md)
 
 However, depending on the severity of a given security vulnerability, there may be case(s) where this would lead to a backport of the patch on a currently unsupported version.
 
