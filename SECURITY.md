@@ -46,4 +46,4 @@ If a dependency that `oapi-codegen` (or its child projects) contains a CVE, we w
 > [!NOTE]
 > Given the Go ecosystem allows projects to override dependency updates, this allows consumers of `oapi-codegen` to upgrade dependencies separate to `oapi-codegen` making changes upstream.
 >
-> We will strive to make sure that we do update these dependencies on a regular basis, but until a fix or release is made
+> We will strive to make sure that we do update these dependencies on a regular basis, but until a fix or release is made, it is possible to override the version in your `go.mod`.
