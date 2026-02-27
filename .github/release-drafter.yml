@@ -37,6 +37,7 @@ categories:
 exclude-labels:
   - skip-changelog
   - invalid
+  - dependencies-test-only
 
 template: |
   > [!CAUTION]
