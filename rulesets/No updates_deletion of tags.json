@@ -1,0 +1,30 @@
+{
+  "id": 8381596,
+  "name": "No updates/deletion of tags",
+  "target": "tag",
+  "source_type": "Repository",
+  "source": "oapi-codegen/oapi-codegen",
+  "enforcement": "active",
+  "conditions": {
+    "ref_name": {
+      "exclude": [
+        "refs/tags/next"
+      ],
+      "include": [
+        "~ALL"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "deletion"
+    },
+    {
+      "type": "non_fast_forward"
+    },
+    {
+      "type": "update"
+    }
+  ],
+  "bypass_actors": []
+}

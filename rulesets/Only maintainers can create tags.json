@@ -1,0 +1,33 @@
+{
+  "id": 8381588,
+  "name": "Only maintainers can create tags",
+  "target": "tag",
+  "source_type": "Repository",
+  "source": "oapi-codegen/oapi-codegen",
+  "enforcement": "active",
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": [
+        "~ALL"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "creation"
+    }
+  ],
+  "bypass_actors": [
+    {
+      "actor_id": null,
+      "actor_type": "OrganizationAdmin",
+      "bypass_mode": "always"
+    },
+    {
+      "actor_id": 8502102,
+      "actor_type": "Team",
+      "bypass_mode": "always"
+    }
+  ]
+}
