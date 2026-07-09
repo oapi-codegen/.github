@@ -15,6 +15,7 @@ Additionally, there are the following HTTP middleware bindings for performing re
 
 - [oapi-codegen/nethttp-middleware](https://github.com/oapi-codegen/nethttp-middleware)
 - [oapi-codegen/fiber-middleware](https://github.com/oapi-codegen/fiber-middleware)
+- [oapi-codegen/fiber-v3-middleware](https://github.com/oapi-codegen/fiber-v3-middleware)
 - [oapi-codegen/iris-middleware](https://github.com/oapi-codegen/iris-middleware)
 - [oapi-codegen/echo-middleware](https://github.com/oapi-codegen/echo-middleware)
 - [oapi-codegen/echo-v5-middleware](https://github.com/oapi-codegen/echo-v5-middleware)
