@@ -66,6 +66,8 @@ template: |
     </a>
   </p>
 
+  $NEW_CONTRIBUTORS
+
 autolabeler:
   - label: 'documentation'
     files:
